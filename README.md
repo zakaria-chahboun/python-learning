@@ -1,4 +1,4 @@
 simple steps to learning Python
 :: zakaria chahboun ::
 
-![alet text](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png)
+![alet text](http://rightclickmedia.co.za/wp-content/uploads/2016/07/Python-Logo-PNG-Image.png)

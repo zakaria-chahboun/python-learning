@@ -46,17 +46,19 @@ def main():
 
 	# strings
 	ee = "hello+world!"
-	print(ee.upper()) # return new string
-	print(ee.split('+')) # return list
-	print "lenght of",ee,"is",len(ee)
+	print(ee[0:5]) # return string : hello
+	print(ee[6:-3]) # return string : wor
+	print(ee.upper()) # return string : HELLO+WORLD!
+	print(ee.split('+')) # return list : ['hello', 'world!']
+	print(len(ee)) # length : 12
 	sim1 = ['welcome','to','my','tutorial']
 	sim2 = 'welcome to my tutorial'
 	fin1 = "-".join(sim1) # return string
 	fin2 = "-".join(sim2) # return string
-	print(fin1)
-	print(fin2)
-	print(ee.find('world'))
-	print "zaki "+"karouh "+str(100)+"%"
+	print(fin1) # : welcome-to-my-tutorial
+	print(fin2) # : w-e-l-c-o-m-e- -t-o- -m-y- -t-u-t-o-r-i-a-l
+	print(ee.find('world')) # return first position : 6
+	print("zaki "+"karouh "+str(100)+"%")
 
 #### Start here ###
 if __name__ == '__main__':

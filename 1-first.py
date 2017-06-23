@@ -58,7 +58,8 @@ def main():
 	print(fin1) # : welcome-to-my-tutorial
 	print(fin2) # : w-e-l-c-o-m-e- -t-o- -m-y- -t-u-t-o-r-i-a-l
 	print(ee.find('world')) # return first position : 6
-	print("zaki "+"karouh "+str(100)+"%")
+	print("zaki "+"karouh "+str(100)+"%") # concatination : zaki karouh 100%
+	print(3*"zaki ") # loop : zaki zaki zaki 
 
 #### Start here ###
 if __name__ == '__main__':

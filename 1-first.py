@@ -5,6 +5,8 @@ def main():
 	txt="zaki"
 	bool1=0 # 0 or False
 	bool2=not(bool1) # true
+	test = 2.15
+	del(test) # delete 'test' variable 
 
 	# format text
 	# s1=f"my name is {txt} and i'm {num} years old." # for python3
@@ -15,8 +17,17 @@ def main():
 	tp=(1,2,3)
 
 	# list : mutable
-	ar=[1,2,3,4]
-	g=[]
+	ar1 = [1,2,3,4]
+	ar2 = [5,6]
+	ar3 = ar1+ar2 # concatenating lists 
+	print(ar3) # : [1,2,3,4,5,6]
+	print(ar3.append(7)) # add item to end of list  : [1,2,3,4,5,6,7]
+	print(ar3.pop()) # remove the last item of list : [1,2,3,4,5,6]
+	print(ar3.remove(1)) # remove an item (first instance) from list : [2,3,4,5,6]
+	ar4 = [ar1,ar2,ar3] # list of multiple dimensions
+	print(ar4) # [[1, 2, 3, 4], [5, 6], [2, 3, 4, 5, 6]]
+
+	g=[] # void list
 	g[:]=range(8) # g = [0, 1, 2, 3, 4, 5, 6, 7]
 	for item in g:
 		#print(item,end=" | ") # python 3 :: print in same line

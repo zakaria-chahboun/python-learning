@@ -6,6 +6,7 @@ def main():
 	bool1=0 # 0 or False
 	bool2=not(bool1) # true
 	test = 2.15
+	e,g = ['hello','salam'] # e = 'hello' and g = 'salam'
 	del(test) # delete 'test' variable 
 
 	# format text
@@ -15,6 +16,7 @@ def main():
 
 	# tuple : immutable
 	tp=(1,2,3)
+	x,y,z = tp # x=1,y=2,z=3
 
 	# list : mutable
 	ar1 = [1,2,3,4]
@@ -30,6 +32,7 @@ def main():
 	print(ar3.remove(1)) # remove an item (first instance) from list : [2,3,4,5,6]
 	ar4 = [ar1,ar2,ar3] # list of multiple dimensions
 	print(ar4) # [[1, 2, 3, 4], [5, 6], [2, 3, 4, 5, 6]]
+	x1 = ['A','B','C'][0] # x1 = 'A'
 
 	g=[] # void list
 	g[:]=range(8) # g = [0, 1, 2, 3, 4, 5, 6, 7]

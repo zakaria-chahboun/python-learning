@@ -19,6 +19,10 @@ def main():
 	# list : mutable
 	ar1 = [1,2,3,4]
 	ar2 = [5,6]
+	print(ar1[:]) # [1,2,3,4]
+	print(ar1[1:2]) # [3]
+	print(ar1[:2]) # [1,2,3]
+	print(ar1[1:]) # [2,3,4]
 	ar3 = ar1+ar2 # concatenating lists 
 	print(ar3) # : [1,2,3,4,5,6]
 	print(ar3.append(7)) # add item to end of list  : [1,2,3,4,5,6,7]

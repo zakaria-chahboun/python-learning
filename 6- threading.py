@@ -5,8 +5,9 @@ import time
 
 def testTread():
 	for i in range(1,11):
-		print('{}/10'.format(i),end='\r') # override same line :)
+		print('{}/10'.format(i),end='\r') # overwrite same line :)
 		time.sleep(1)
+
 
 def main():
 
